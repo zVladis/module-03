@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     width: 1200px;
-    height: 2079px;
+
     /* font-family: 'Playfair Display',
         serif;
     font-family: 'Ubuntu',
@@ -11,81 +11,91 @@ body {
 }
 
 /* Header========================================= */
-.nav {
+li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 185px;
 
-    color: #626262;
-    font-family: "Playfair Display";
-    font-size: 14px;
-    font-weight: 400;
-    ;
+}
 
-    /* article-1====================================== */
+/* Container========================================= */
 
-    .article-1 {
-        display: inline-block;
-        width: 420px;
-        height: 478px;
-        margin: 0 auto;
-        margin-left: 220px;
-        margin-top: 105px;
-
-
-    }
-
-
-    /* article-2====================================== */
-    .article-2 {
-        display: inline-block;
-        width: 420px;
-        height: 478px;
-        margin: 0 auto;
-        margin-left: 60px;
-        margin-top: 105px;
+/* .container {} */
 
 
 
+/* article-1====================================== */
 
-    }
+.article-1 {
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin: 0 auto;
+    margin-left: 220px;
+    margin-top: 105px;
+
+
+}
+
+
+/* article-2====================================== */
+.article-2 {
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 105px;
 
 
 
-    /* article-3====================================== */
-    .article-3 {
-        display: inline-block;
-        width: 420px;
-        height: 478px;
-        margin: 0 auto;
-        margin-left: 220px;
-        margin-top: 80px;
-    }
 
-    /* article-4====================================== */
-    .article-4 {
-        display: inline-block;
-        width: 420px;
-        height: 478px;
-        margin: 0 auto;
-        margin-left: 60px;
-        margin-top: 80px;
+}
 
-    }
 
-    /* article-5====================================== */
-    .article-5 {
-        display: inline-block;
-        width: 420px;
-        height: 478px;
-        margin: 0 auto;
-        margin-left: 220px;
-        margin-top: 80px;
-    }
 
-    /* article-6====================================== */
-    .article-6 {
-        display: inline-block;
-        width: 420px;
-        height: 478px;
-        margin: 0 auto;
-        margin-left: 60px;
-        margin-top: 80px;
-    }
+/* article-3====================================== */
+.article-3 {
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin: 0 auto;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+/* article-4====================================== */
+.article-4 {
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 80px;
+
+}
+
+/* article-5====================================== */
+.article-5 {
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin: 0 auto;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+/* article-6====================================== */
+.article-6 {
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.button {
+    text-align: center;
+
+}
