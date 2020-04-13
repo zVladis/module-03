@@ -1,101 +1,182 @@
-body {
-    padding: 0;
-    margin: 0;
-    width: 1200px;
-
-    /* font-family: 'Playfair Display',
-        serif;
-    font-family: 'Ubuntu',
-        sans-serif; */
-    /* background-color: aquamarine; */
+html {
+    box-sizing: border-box;
 }
 
-/* Header========================================= */
-li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 185px;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
+body {
+    font-family: "Playfair Display", "Ubuntu", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* HEADER================== */
+.header {}
+
+/* Nav========================================= */
+.nav {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+
+.nav li {
+
+    display: inline-block;
+    margin-top: 53px;
+    margin-bottom: 68px;
+    margin-right: 120px;
+
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: #03a9f4;
+    ;
 }
 
 /* Container========================================= */
 
-/* .container {} */
+.container {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 54px;
+    font-family: "Playfair Display";
 
+}
 
+.first-paragraph {
+    color: #b4ad9e;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
 
-/* article-1====================================== */
+}
 
-.article-1 {
+/* article-====================================== */
+
+.article-first {
     display: inline-block;
     width: 420px;
-    height: 478px;
-    margin: 0 auto;
-    margin-left: 220px;
-    margin-top: 105px;
+    margin: 0;
+    padding: 0;
+    margin-right: 56px;
+
+
 
 
 }
 
 
-/* article-2====================================== */
-.article-2 {
+.article-second {
     display: inline-block;
     width: 420px;
-    height: 478px;
-    margin: 0 auto;
-    margin-left: 60px;
-    margin-top: 105px;
-
-
+    margin: 0;
+    padding: 0;
 
 
 }
 
 
 
-/* article-3====================================== */
-.article-3 {
+.article-third {
     display: inline-block;
     width: 420px;
-    height: 478px;
-    margin: 0 auto;
-    margin-left: 220px;
-    margin-top: 80px;
-}
-
-/* article-4====================================== */
-.article-4 {
-    display: inline-block;
-    width: 420px;
-    height: 478px;
-    margin: 0 auto;
-    margin-left: 60px;
-    margin-top: 80px;
+    margin: 0;
+    padding: 0;
+    margin-right: 56px;
+    margin-top: 30px;
 
 }
 
-/* article-5====================================== */
-.article-5 {
+
+.article-fourth {
     display: inline-block;
     width: 420px;
-    height: 478px;
-    margin: 0 auto;
-    margin-left: 220px;
-    margin-top: 80px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
 }
 
-/* article-6====================================== */
-.article-6 {
+.article-fifth {
     display: inline-block;
     width: 420px;
-    height: 478px;
-    margin: 0 auto;
-    margin-left: 60px;
-    margin-top: 80px;
+    margin: 0;
+    padding: 0;
+    margin-right: 56px;
+    margin-top: 30px;
 }
+
+.article-sixth {
+    display: inline-block;
+    width: 420px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+
+
+
+/* BUTTON==================================== */
+
 
 .button {
+    /* display: inline; */
     text-align: center;
 
+    /* margin: 0 auto; */
+
+
+
+
+}
+
+.button-style {
+    border: 1px solid #626262;
+    width: 164px;
+    height: 60px;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    /* padding: 21px 34px; */
+
+}
+
+.button button:hover,
+.button button:focus {
+    color: #03a9f4;
+    ;
 }
