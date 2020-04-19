@@ -75,7 +75,7 @@ p {
 
 }
 
-.first-paragraph {
+.subtitle {
     color: #b4ad9e;
     font-family: Ubuntu;
     font-size: 14px;
@@ -93,21 +93,14 @@ p {
     padding: 0;
     margin-right: 56px;
 
-
-
-
 }
-
 
 .article-second {
     display: inline-block;
     width: 420px;
     margin: 0;
     padding: 0;
-
-
 }
-
 
 
 .article-third {
@@ -119,7 +112,6 @@ p {
     margin-top: 30px;
 
 }
-
 
 .article-fourth {
     display: inline-block;
@@ -152,18 +144,11 @@ p {
 /* BUTTON==================================== */
 
 
-.button {
-
+.button-wrapper {
     text-align: center;
-
-
-
-
-
-
 }
 
-.button-wrapper {
+.button {
     border: 1px solid #626262;
     width: 164px;
     height: 60px;
